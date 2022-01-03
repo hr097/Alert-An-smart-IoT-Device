@@ -1,0 +1,5 @@
+if you want to know motion effect without internet connection on your local station network of esp8266 which is(192.168.4.1) where our webpage is hosted and showing realtime motion effect then you should use Alerter code
+
+and if you want SMS alert from an API then internet connection is required and all stuff is written in instruction manual so read it and use code of pushbullet
+
+NOTE : you need to upload code to esp8266 not to arduino (in my case arduino development board has inbuilt esp8266 so by turning on dip switch 5-6-7 on i m uploading code and after successful upload i will turn off dip switch 7 and 5-6 will be on as it is
