@@ -6,8 +6,10 @@ const char* host = "api.pushbullet.com";
 //https://api.pushbullet.com/v2/pushes
 const int httpsPort = 443;
 const int gpio_pir_sensor = 16 ; // GPIO 16
-const char* accessToken = "o.FBBHnU0OPS9aNHKiTNvKW3yaNadXIWCb";
-const char* fingerprint = "497193b763c8126276cd14d87a2c186fce7f7381";
+const char* accessToken = "your_token_key";
+//o.FBBHnU0OPS9aNHKiTNvKW3yaNadXIWCb mine no use this will not work
+const char* fingerprint = "finger_thumbp__";
+//497193b763c8126276cd14d87a2c186fce7f7381 mine no use this will not work
 void setup() {
  
  Serial.begin(115200);
